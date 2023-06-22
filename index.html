@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <div>
+        <h1>Consultando CEP</h1>
+        <form>
+            <div>
+                <label for="cep">CEP</label>
+                <input type="text" class="form-control" id="cep" maxlength="9" required>
+                <small>00000-000</small>
+                <div id="erro"></div>
+            </div>
+
+            <div>
+                <label for="logradouro">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro" required>
+                <small>Rua. </small>
+            </div>
+
+            <div>
+                <label for="bairro">Bairro</label>
+                <input type="text" class="form-control" id="bairro" required>
+                <small>Bairro</small>
+            </div>
+
+            <div>
+                <label for="localidade">Localidade</label>
+                <input type="text" class="form-control" id="localidade" required>
+                <small>Cidade</small>
+            </div>
+
+            <div>
+                <label for="uf">UF</label>
+                <input type="text" class="form-control" id="uf" required>
+                <small>Estado</small>
+            </div>
+            
+            <div>
+                <label for="ddd">DDD</label>
+                <input type="text" class="form-control" id="ddd" required>
+                <small>Código do ddd</small>
+            </div>
+
+            <div>
+                <label for="complemento">Complemento</label>
+                <input type="text" class="form-control" id="complemento" required>
+                <small>Ex: SuperMercado...</small>
+            </div>
+
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
